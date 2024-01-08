@@ -24,17 +24,17 @@ class Constants {
   static const divider = Divider(thickness: 2);
 
   // Screen Navigation
-  void nextScreen(context, page) {
+  static nextScreen(context, page) {
     Navigator.of(context).push(MaterialPageRoute(builder: (context) => page));
   }
 
-  void screenReplacement(context, page) {
+  static screenReplacement(context, page) {
     Navigator.of(context)
         .pushReplacement(MaterialPageRoute(builder: (context) => page));
   }
 
   // snackbar
-  void showSnackbar(context, String text) {
+  static showSnackbar(context, String text) {
     final snackbar = SnackBar(
       content: Text(text),
     );
