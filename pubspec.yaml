@@ -1,7 +1,7 @@
 name: common_constants
-description: A new Flutter package project.
+description: A Flutter package that provides a set of common constants for use in Flutter projects.
 version: 0.0.1
-homepage:
+homepage: https://github.com/habeeb321/Common-Constants
 
 environment:
   sdk: '>=2.19.6 <3.0.0'
