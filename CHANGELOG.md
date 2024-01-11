@@ -9,3 +9,7 @@ Routing methods, Snackbar method not getting issue fixed.
 ## 0.0.3
 
 Added Example of package.
+
+## 0.0.4
+
+Added Documentation.
