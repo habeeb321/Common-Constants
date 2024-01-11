@@ -13,3 +13,7 @@ Added Example of package.
 ## 0.0.4
 
 Added Documentation.
+
+## 0.0.5
+
+Documentation changed.
