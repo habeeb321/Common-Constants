@@ -39,6 +39,7 @@ The `common_constants` package also includes a number of useful functions, such 
 * `nextScreen()`: A function that navigates to a new screen.
 * `screenReplacement()`: A function that replaces the current screen with a new screen.
 * `showSnackbar()`: A function that displays a snackbar.
+* `showCircularProgress()`: A function that displays a customized circular progress indicator.
 
 ## Constants
 
@@ -115,6 +116,7 @@ class HomeScreen extends StatelessWidget {
                 },
                 child: const Text('Navigate to Second Screen'),
               ),
+              Constants.showCircularProgress(),
             ],
           ),
         ),

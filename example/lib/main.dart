@@ -58,6 +58,8 @@ class HomeScreen extends StatelessWidget {
                 },
                 child: const Text('Navigate to Second Screen'),
               ),
+              Constants.height10,
+              Constants.showCircularProgress(),
             ],
           ),
         ),

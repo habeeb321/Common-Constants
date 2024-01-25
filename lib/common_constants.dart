@@ -40,4 +40,14 @@ class Constants {
     );
     ScaffoldMessenger.of(context).showSnackBar(snackbar);
   }
+
+  // Circular Indicator
+  static showCircularProgress() {
+    return const Center(
+      child: CircularProgressIndicator(
+        strokeWidth: 4,
+        backgroundColor: Colors.orange,
+      ),
+    );
+  }
 }

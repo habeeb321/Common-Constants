@@ -17,3 +17,7 @@ Added Documentation.
 ## 0.0.5
 
 Documentation changed.
+
+## 0.0.6
+
+Customized Circular progress indicator added.
